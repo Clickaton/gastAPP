@@ -91,6 +91,7 @@
                   <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
                   <Component id="jButton3" alignment="1" max="32767" attributes="0"/>
                   <Component id="jButton4" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jButton6" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace pref="50" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -108,7 +109,6 @@
                           </Group>
                       </Group>
                   </Group>
-                  <Component id="jButton6" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -142,7 +142,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\notebook\Documents\Repositorios\gastAPP\src\american-dollar-2.png"/>
+                  <Image iconType="3" name="/american-dollar-2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="gastAPP "/>
               </Properties>
@@ -161,7 +161,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\notebook\Desktop\icons8-casa-48.png"/>
+                  <Image iconType="3" name="/icons8-casa-48.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Principal"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -191,7 +191,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\notebook\Desktop\icons8-calendario-50.png"/>
+                  <Image iconType="3" name="/icons8-calendario-50.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Gastos Mensuales"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -221,7 +221,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\notebook\Desktop\icons8-agregar-p&#xe1;gina-web-64.png"/>
+                  <Image iconType="3" name="/icons8-agregar-p&#xe1;gina-web-64.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar gasto"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -251,7 +251,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\notebook\Desktop\icons8-restar pagina-web-64.png"/>
+                  <Image iconType="3" name="/icons8-restar pagina-web-64.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Eliminar gasto"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -281,7 +281,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\notebook\Desktop\icons8-transacci&#xf3;n-48.png"/>
+                  <Image iconType="3" name="/icons8-transacci&#xf3;n-48.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Pagos"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">

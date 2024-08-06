@@ -66,13 +66,13 @@ public class gastAPP extends javax.swing.JFrame {
         BackgroundMenu.setBackground(new java.awt.Color(129, 172, 0));
 
         Logo.setForeground(new java.awt.Color(255, 255, 255));
-        Logo.setIcon(new javax.swing.ImageIcon("C:\\Users\\notebook\\Documents\\Repositorios\\gastAPP\\src\\american-dollar-2.png")); // NOI18N
+        Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/american-dollar-2.png"))); // NOI18N
         Logo.setText("gastAPP ");
 
         jButton1.setBackground(new java.awt.Color(129, 172, 0));
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\notebook\\Desktop\\icons8-casa-48.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8-casa-48.png"))); // NOI18N
         jButton1.setText("Principal");
         jButton1.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
         jButton1.setBorderPainted(false);
@@ -87,7 +87,7 @@ public class gastAPP extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(129, 172, 0));
         jButton2.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\notebook\\Desktop\\icons8-calendario-50.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8-calendario-50.png"))); // NOI18N
         jButton2.setText("Gastos Mensuales");
         jButton2.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
         jButton2.setBorderPainted(false);
@@ -102,7 +102,7 @@ public class gastAPP extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(129, 172, 0));
         jButton3.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\notebook\\Desktop\\icons8-agregar-página-web-64.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8-agregar-página-web-64.png"))); // NOI18N
         jButton3.setText("Agregar gasto");
         jButton3.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
         jButton3.setBorderPainted(false);
@@ -117,7 +117,7 @@ public class gastAPP extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(129, 172, 0));
         jButton4.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\notebook\\Desktop\\icons8-restar pagina-web-64.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8-restar pagina-web-64.png"))); // NOI18N
         jButton4.setText("Eliminar gasto");
         jButton4.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
         jButton4.setBorderPainted(false);
@@ -132,7 +132,7 @@ public class gastAPP extends javax.swing.JFrame {
         jButton6.setBackground(new java.awt.Color(129, 172, 0));
         jButton6.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setIcon(new javax.swing.ImageIcon("C:\\Users\\notebook\\Desktop\\icons8-transacción-48.png")); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8-transacción-48.png"))); // NOI18N
         jButton6.setText("Pagos");
         jButton6.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
         jButton6.setBorderPainted(false);
@@ -155,6 +155,7 @@ public class gastAPP extends javax.swing.JFrame {
             .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BackgroundMenuLayout.createSequentialGroup()
                 .addContainerGap(50, Short.MAX_VALUE)
                 .addGroup(BackgroundMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -167,7 +168,6 @@ public class gastAPP extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BackgroundMenuLayout.createSequentialGroup()
                         .addComponent(Mensaje1)
                         .addGap(65, 65, 65))))
-            .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         BackgroundMenuLayout.setVerticalGroup(
             BackgroundMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
