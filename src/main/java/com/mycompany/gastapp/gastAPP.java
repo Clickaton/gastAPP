@@ -6,6 +6,8 @@ package com.mycompany.gastapp;
 
 import com.formdev.flatlaf.FlatLightLaf;
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialLighterIJTheme;
+import com.mycompany.views.Home;
+import java.awt.BorderLayout;
 import javax.swing.JToggleButton;
 import javax.swing.UIManager;
 
@@ -21,6 +23,18 @@ public class gastAPP extends javax.swing.JFrame {
     public gastAPP() {
         initComponents();
         InitStyles();
+        InitContent();
+    }
+    
+    private void InitContent(){
+    Home he = new Home();
+    he.setSize(558, 451);
+    he.setLocation(0, 0);
+    
+    Content.removeAll ();
+    Content.add(he, BorderLayout.CENTER);
+    Content.revalidate();
+    Content.repaint();
     }
 
     private void InitStyles() {
