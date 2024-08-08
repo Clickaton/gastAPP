@@ -15,6 +15,22 @@ public class Home extends javax.swing.JPanel {
      */
     public Home() {
         initComponents();
+        InitStyles();
+    }
+
+    private void InitStyles() {
+        Titulo.putClientProperty("FlatLaf.styleClass", "h3");
+        Subtitulo1.putClientProperty("FlatLaf.styleClass", "h4");
+        Subtitulo2.putClientProperty("FlatLaf.styleClass", "h4");
+        Titulo2.putClientProperty("FlatLaf.styleClass", "h3");
+        Item1.putClientProperty("FlatLaf.styleClass", "h4");
+        Item2.putClientProperty("FlatLaf.styleClass", "h4");
+        Item3.putClientProperty("FlatLaf.styleClass", "h4");
+        Item4.putClientProperty("FlatLaf.styleClass", "h4");
+        Item5.putClientProperty("FlatLaf.styleClass", "h4");
+        Item6.putClientProperty("FlatLaf.styleClass", "h4");        
+        Titulo.putClientProperty("FlatLaf.style", "font: bold $h1.regular.font");
+
     }
 
     /**
@@ -26,68 +42,78 @@ public class Home extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
+        Titulo = new javax.swing.JLabel();
+        Img = new javax.swing.JLabel();
+        Subtitulo1 = new javax.swing.JLabel();
+        Subtitulo2 = new javax.swing.JLabel();
+        Titulo2 = new javax.swing.JLabel();
+        Item4 = new javax.swing.JLabel();
+        Item1 = new javax.swing.JLabel();
+        Item2 = new javax.swing.JLabel();
+        Item3 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
+        Item5 = new javax.swing.JLabel();
+        Item6 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(558, 451));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Bienvenido a gastaPP");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 38, -1, -1));
+        Titulo.setText("Hola {User.name}");
+        add(Titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hometest.png"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 298, -1));
+        Img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hometest.png"))); // NOI18N
+        add(Img, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 360, -1));
 
-        jLabel2.setText("Nos complace darte la bienvenida a tu nuevo compañero en la gestión eficaz de tus gastos mensuales.");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, -1, -1));
+        Subtitulo1.setText("Nos complace darte la bienvenida a tu nuevo compañero en la gestión eficaz de tus gastos");
+        add(Subtitulo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 610, -1));
 
-        jLabel4.setText("Con nuestra aplicación, gestionar tu presupuesto nunca ha sido tan sencillo y conveniente.");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
+        Subtitulo2.setText("mensuales con nuestra aplicación, gestionar tu presupuesto nunca ha sido tan sencillo.");
+        add(Subtitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
-        jLabel5.setText("¿Qué puedes hacer con gastAPP?");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, -1, -1));
+        Titulo2.setText("¿Qué puedes hacer con gastAPP?");
+        add(Titulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
-        jLabel6.setText("● Ver todos los vencimientos");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, -1));
+        Item4.setText("● Tener privacidad en tus cuentas");
+        add(Item4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, 200, -1));
 
-        jLabel7.setText("● Agregar y eliminar gastos");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
+        Item1.setText("● Crear múltiples usuarios");
+        add(Item1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 160, -1));
 
-        jLabel8.setText("● Realizar una lista completa");
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, -1, -1));
+        Item2.setText("● Realizar una lista completa");
+        add(Item2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 170, -1));
 
-        jLabel9.setText("● Ver todos los vencimientos");
-        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, -1, -1));
+        Item3.setText("● Ver todos los vencimientos");
+        add(Item3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 170, -1));
 
-        jLabel10.setText("Empieza a organizar tu presupuesto ahora mismo. Si necesitas ayuda, estamos aquí para ti.  ");
-        add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 370, -1, -1));
+        jLabel10.setText("Empieza a organizar tus gastos ahora mismo. Si necesitas ayuda, estamos aquí para ti.  ");
+        add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 380, -1, -1));
 
-        jLabel11.setText("¡Gracias por elegirnos!  ");
-        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 400, -1, -1));
+        Item5.setText("● Agregar y eliminar gastos");
+        add(Item5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 160, -1));
+
+        Item6.setText("● Controlar fechas de pago");
+        add(Item6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 170, -1));
+
+        jLabel12.setText("¡Gracias por elegirnos!  ");
+        add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 400, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel Img;
+    private javax.swing.JLabel Item1;
+    private javax.swing.JLabel Item2;
+    private javax.swing.JLabel Item3;
+    private javax.swing.JLabel Item4;
+    private javax.swing.JLabel Item5;
+    private javax.swing.JLabel Item6;
+    private javax.swing.JLabel Subtitulo1;
+    private javax.swing.JLabel Subtitulo2;
+    private javax.swing.JLabel Titulo;
+    private javax.swing.JLabel Titulo2;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel12;
     // End of variables declaration//GEN-END:variables
 }

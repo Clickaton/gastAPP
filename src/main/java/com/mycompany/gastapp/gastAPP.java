@@ -72,6 +72,7 @@ public class gastAPP extends javax.swing.JFrame {
         Subtittle = new javax.swing.JLabel();
         Content = new javax.swing.JPanel();
         Mensaje = new javax.swing.JLabel();
+        Mensaje2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -200,7 +201,7 @@ public class gastAPP extends javax.swing.JFrame {
                 .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 110, Short.MAX_VALUE)
                 .addComponent(Mensaje1)
                 .addContainerGap())
         );
@@ -242,7 +243,7 @@ public class gastAPP extends javax.swing.JFrame {
         Content.setLayout(ContentLayout);
         ContentLayout.setHorizontalGroup(
             ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 558, Short.MAX_VALUE)
+            .addGap(0, 533, Short.MAX_VALUE)
         );
         ContentLayout.setVerticalGroup(
             ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -250,6 +251,9 @@ public class gastAPP extends javax.swing.JFrame {
         );
 
         Mensaje.setText("We take care of your 💸");
+
+        Mensaje2.setForeground(new java.awt.Color(247, 247, 247));
+        Mensaje2.setText("v 1.1");
 
         javax.swing.GroupLayout BackgroundLayout = new javax.swing.GroupLayout(Background);
         Background.setLayout(BackgroundLayout);
@@ -262,7 +266,8 @@ public class gastAPP extends javax.swing.JFrame {
                     .addGroup(BackgroundLayout.createSequentialGroup()
                         .addGap(6, 6, 6)
                         .addComponent(Content, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Mensaje2))
                     .addGroup(BackgroundLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Mensaje, javax.swing.GroupLayout.PREFERRED_SIZE, 291, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -279,6 +284,9 @@ public class gastAPP extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Content, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addGroup(BackgroundLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(Mensaje2))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -342,6 +350,7 @@ public class gastAPP extends javax.swing.JFrame {
     private javax.swing.JLabel Logo;
     private javax.swing.JLabel Mensaje;
     private javax.swing.JLabel Mensaje1;
+    private javax.swing.JLabel Mensaje2;
     private javax.swing.JLabel Subtittle;
     private javax.swing.JPanel TitleBackgroud;
     private javax.swing.JLabel Tittle;
