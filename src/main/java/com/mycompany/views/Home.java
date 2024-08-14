@@ -22,7 +22,7 @@ public class Home extends javax.swing.JPanel {
         Titulo.putClientProperty("FlatLaf.styleClass", "h3");
         Subtitulo1.putClientProperty("FlatLaf.styleClass", "h4");
         Subtitulo2.putClientProperty("FlatLaf.styleClass", "h4");
-        Titulo2.putClientProperty("FlatLaf.styleClass", "h3");
+        Tituloq.putClientProperty("FlatLaf.styleClass", "h3");
         Item1.putClientProperty("FlatLaf.styleClass", "h4");
         Item2.putClientProperty("FlatLaf.styleClass", "h4");
         Item3.putClientProperty("FlatLaf.styleClass", "h4");
@@ -42,67 +42,176 @@ public class Home extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        bg = new javax.swing.JPanel();
         Titulo = new javax.swing.JLabel();
-        Img = new javax.swing.JLabel();
+        Img1 = new javax.swing.JLabel();
         Subtitulo1 = new javax.swing.JLabel();
         Subtitulo2 = new javax.swing.JLabel();
-        Titulo2 = new javax.swing.JLabel();
-        Item4 = new javax.swing.JLabel();
-        Item1 = new javax.swing.JLabel();
-        Item2 = new javax.swing.JLabel();
-        Item3 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        Item5 = new javax.swing.JLabel();
+        Tituloq = new javax.swing.JLabel();
         Item6 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
+        Item1 = new javax.swing.JLabel();
+        Item3 = new javax.swing.JLabel();
+        Item4 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        Item2 = new javax.swing.JLabel();
+        Item5 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(558, 451));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        bg.setBackground(new java.awt.Color(255, 255, 255));
+        bg.setPreferredSize(new java.awt.Dimension(558, 451));
 
         Titulo.setText("Hola {User.name}");
-        add(Titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, -1, -1));
 
-        Img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hometest.png"))); // NOI18N
-        add(Img, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 360, -1));
+        Img1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hometest.png"))); // NOI18N
 
         Subtitulo1.setText("Nos complace darte la bienvenida a tu nuevo compañero en la gestión eficaz de tus gastos");
-        add(Subtitulo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 610, -1));
 
         Subtitulo2.setText("mensuales con nuestra aplicación, gestionar tu presupuesto nunca ha sido tan sencillo.");
-        add(Subtitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
-        Titulo2.setText("¿Qué puedes hacer con gastAPP?");
-        add(Titulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
+        Tituloq.setText("¿Qué puedes hacer con gastAPP?");
 
-        Item4.setText("● Tener privacidad en tus cuentas");
-        add(Item4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, 200, -1));
+        Item6.setText("● Tener privacidad en tus cuentas");
 
         Item1.setText("● Crear múltiples usuarios");
-        add(Item1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 160, -1));
 
-        Item2.setText("● Realizar una lista completa");
-        add(Item2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 170, -1));
+        Item3.setText("● Realizar una lista completa");
 
-        Item3.setText("● Ver todos los vencimientos");
-        add(Item3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 170, -1));
+        Item4.setText("● Ver todos los vencimientos");
 
-        jLabel10.setText("Empieza a organizar tus gastos ahora mismo. Si necesitas ayuda, estamos aquí para ti.  ");
-        add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 380, -1, -1));
+        jLabel11.setText("Empieza a organizar tus gastos ahora mismo. Si necesitas ayuda, estamos aquí para ti.  ");
 
-        Item5.setText("● Agregar y eliminar gastos");
-        add(Item5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 160, -1));
+        Item2.setText("● Agregar y eliminar gastos");
 
-        Item6.setText("● Controlar fechas de pago");
-        add(Item6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 170, -1));
+        Item5.setText("● Controlar fechas de pago");
 
-        jLabel12.setText("¡Gracias por elegirnos!  ");
-        add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 400, -1, -1));
+        jLabel13.setText("¡Gracias por elegirnos!  ");
+
+        javax.swing.GroupLayout bgLayout = new javax.swing.GroupLayout(bg);
+        bg.setLayout(bgLayout);
+        bgLayout.setHorizontalGroup(
+            bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(bgLayout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(Subtitulo1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addGap(170, 170, 170)
+                                .addComponent(Img1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(Tituloq, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(348, 348, 348))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(Item3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(360, 360, 360))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(Item2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(370, 370, 370))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(Item4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(360, 360, 360))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(Item6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(330, 330, 330))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(Item1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(370, 370, 370))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(Item5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(360, 360, 360))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(Subtitulo2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(66, 66, 66)))
+                        .addGap(90, 90, 90))))
+            .addGroup(bgLayout.createSequentialGroup()
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(210, 210, 210)
+                        .addComponent(Titulo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(222, 222, 222))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(220, 220, 220)
+                        .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(178, 178, 178)))
+                .addGap(116, 116, 116))
+        );
+        bgLayout.setVerticalGroup(
+            bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(bgLayout.createSequentialGroup()
+                .addComponent(Titulo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(4, 4, 4)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Img1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(280, 280, 280)
+                        .addComponent(Item6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(61, 61, 61))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(Subtitulo1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(321, 321, 321))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(130, 130, 130)
+                        .addComponent(Item1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(211, 211, 211))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(190, 190, 190)
+                        .addComponent(Item3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(151, 151, 151))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(160, 160, 160)
+                        .addComponent(Item2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(181, 181, 181))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(250, 250, 250)
+                        .addComponent(Item5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(91, 91, 91))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(220, 220, 220)
+                        .addComponent(Item4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(121, 121, 121))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(Tituloq, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(251, 251, 251))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(Subtitulo2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(301, 301, 301)))
+                .addGap(3, 3, 3)
+                .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(4, 4, 4)
+                .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(38, 38, 38))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bg, javax.swing.GroupLayout.PREFERRED_SIZE, 553, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(bg, javax.swing.GroupLayout.DEFAULT_SIZE, 454, Short.MAX_VALUE)
+        );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Img;
+    private javax.swing.JLabel Img1;
     private javax.swing.JLabel Item1;
     private javax.swing.JLabel Item2;
     private javax.swing.JLabel Item3;
@@ -112,8 +221,9 @@ public class Home extends javax.swing.JPanel {
     private javax.swing.JLabel Subtitulo1;
     private javax.swing.JLabel Subtitulo2;
     private javax.swing.JLabel Titulo;
-    private javax.swing.JLabel Titulo2;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel Tituloq;
+    private javax.swing.JPanel bg;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel13;
     // End of variables declaration//GEN-END:variables
 }
